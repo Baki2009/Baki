@@ -6,8 +6,8 @@ class Car:
         self.year = year
         self.wheels = wheels
 
-    def info(self):
-        print(f"Бренд машины - {self.model}, год выпуска - {self.year}")
+    # def info(self):
+    #     print(f"Бренд машины - {self.model}, год выпуска - {self.year}")
     # Магические методы для арифметических действий
     def __str__(self): # str == print (str - выводит информацию о классе (str == info, print))
         return f"Бренд машины - {self.model}, год выпуска - {self.year} кол-во колес - {self.wheels} , "
