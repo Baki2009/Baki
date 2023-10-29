@@ -38,6 +38,7 @@ birth_date DATE NOT NULL,
 is_passed BOOLEAN DEFAULT FALSE
 );
 """
+
 # IF NOT EXISTS = создать таблицу если такой не существует
 # AUTOINCREMENT = сам сгенерирует айди
 # VARCHAR = текст с ограниченной длиной(str)
